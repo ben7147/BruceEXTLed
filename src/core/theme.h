@@ -20,6 +20,7 @@ struct themeFiles {
     String clock = "";
     String connect = "";
     String config = "";
+    String led = "";
 };
 
 struct themeInfo {
