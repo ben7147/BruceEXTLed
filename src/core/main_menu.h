@@ -5,6 +5,7 @@
 
 #include "menu_items/BleMenu.h"
 #include "menu_items/ClockMenu.h"
+#include "menu_items/EXTLedControlMenu.h"
 #include "menu_items/ConfigMenu.h"
 #include "menu_items/ConnectMenu.h"
 #include "menu_items/FMMenu.h"
@@ -34,6 +35,7 @@ public:
     RFMenu rfMenu;
     ScriptsMenu scriptsMenu;
     WifiMenu wifiMenu;
+    EXTLedControlMenu ledMenu;
 
     MainMenu();
     ~MainMenu();
